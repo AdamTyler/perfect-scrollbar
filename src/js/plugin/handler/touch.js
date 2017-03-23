@@ -84,7 +84,7 @@ function bindTouchHandler(element, i, supportsTouch, supportsIePointer) {
         clearInterval(easingLoop);
       }
 
-      e.stopPropagation();
+      //e.stopPropagation();
     }
   }
   function touchMove(e) {
